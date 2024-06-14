@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <title>{{ page.title }}</title>
+        <link rel="stylesheet" href="/assets/raster-v20.css">
+
+        <!-- METADATA -->
+
+    </head>
+
+    <body>
+        <r-grid columns=6 columns-s=2>
+            <r-cell span=1>
+                <a href="/">HAYLEY JOLLIFFE</a>
+            </r-cell>
+
+            <r-cell span=3+1>
+                <span>00:00:00 EST</span>
+            </r-cell>
+
+            <r-cell span=5..>
+                <a href="">Link</a>&nbsp;
+                <a href="">Link</a>&nbsp;
+                <a href="">Link</a>
+            </r-cell>
+            {{ content }}
+        </r-grid>
+    </body>
+</html>
